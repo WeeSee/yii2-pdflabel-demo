@@ -1,11 +1,12 @@
 Yii2-Pdflabel Demo
 ==================
 
-This demo show some examples of how the Yii2 extension [yii2-pdflabel](https://github.com/WeeSee/yii2-pdflabel) works.
+This demo shows some examples of how the Yii2 extension
+[yii2-pdflabel](https://github.com/WeeSee/yii2-pdflabel) can be used.
 
-To see ths extension working, have a look at:
+To see this extension working, have a look at:
 
-* [SiteContoller: actionAbout](/controllers/SiteController.php)
+* [SiteContoller: actionPdfLabelDownload](/controllers/SiteController.php#L132)
 * [views/site/about.php](/views/site/about.php)
 
 Installation
