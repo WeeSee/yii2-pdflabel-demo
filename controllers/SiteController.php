@@ -158,7 +158,7 @@ class SiteController extends Controller
             'subject' => 'Label  test',
             'title' => 'Little useful labels',
             'asHtml' => true,
-            'border' => true,
+            'border' => false,
         ]);
         $pdfLabel->addLabel("hello<hr>world");
         return $pdfLabel->render();

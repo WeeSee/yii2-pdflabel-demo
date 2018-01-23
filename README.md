@@ -19,7 +19,18 @@ The preferred way to install (with local composer installation) is
     $ cd /var/www/html
     $ git clone https://github.com/weesee/yii2-pdflabel-demo
     $ php composer.phar install
-    
+
+Usage
+-----
+
 Then start your web browser with ```http://localhost/web/index.php```, goto ```About```
 and try the labels listes.
+
+You should see this About-Screen:
+
+![About-Screen](/images/yii2-pdflabel-1.png)
+
+an label prints like this (in PDF, in A4 format):
+
+![Label page](/images/yii2-pdflabel-2.png)
 
