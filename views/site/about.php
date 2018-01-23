@@ -16,8 +16,8 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
     <p>Select label format:
     <ul><?php
-        foreach(PdfLabel::getLabelNames('A4') as $name => $format)
-            echo "<li>".Html::a("Label-PDF ".$name,
+        foreach(PdfLabel::getLabelNames('.*') as $name => $label)
+            echo "<li>".Html::a($label,
                 ['pdf-label-download','label'=>$name],
                 ['target'=>'_blank']
             )."</li>";

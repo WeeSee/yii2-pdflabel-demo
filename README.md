@@ -30,7 +30,9 @@ You should see this About-Screen:
 
 ![About-Screen](/images/yii2-pdflabel-1.png)
 
-an label prints like this (in PDF, in A4 format):
+and label prints like this (in PDF, in A4 format):
 
 ![Label page](/images/yii2-pdflabel-2.png)
+
+
 
